@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    title= pageTitle
+    script(type='text/javascript').
+      if (true) sum(1,5)
+      function sum(a,b) { console.log(a+b) }
+  body
+    h1 Pug - node template engine
+    #container.col
+      if false
+        p First paragraph
+      else
+        p Second paragraph
+      p.
+        Pug is a terse and simple templating language with a
+        strong focus on performance and powerful features.
+
+        
